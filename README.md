@@ -3,6 +3,7 @@ Food Delivery Microservices Platform
 A scalable, distributed food delivery platform built using the Spring Cloud microservices architecture. This project implements modular RESTful services to handle user management, order processing, and delivery logistics, ensuring high availability and secure inter-service communication.
 
 🏗 Architecture & Tech Stack
+
 Framework: Spring Boot, Spring Cloud
 
 Database: MySQL, Spring Data JDBC
@@ -14,6 +15,7 @@ Service Discovery: Netflix Eureka
 Configuration: Spring Cloud Config Server
 
 ⚙️ Core Services
+
 The platform is divided into distinct, loosely coupled microservices. To ensure data decentralization and service independence, the core business services each manage their own dedicated MySQL database.
 
 API Gateway: The centralized entry point handling request routing and global security filtering.
@@ -31,6 +33,7 @@ Order Service: A RESTful microservice handling order placement, tracking, and hi
 Delivery Service: A RESTful microservice managing delivery partner assignments and logistics.
 
 ✨ Key Features
+
 Distributed Design: Fully modular architecture with independent service deployment and decentralized data management.
 
 Dynamic Routing & Discovery: Seamless service-to-service communication and load balancing via Eureka and Spring Cloud Gateway.
