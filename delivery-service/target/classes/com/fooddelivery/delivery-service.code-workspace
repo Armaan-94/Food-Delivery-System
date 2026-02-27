@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../../../.."
+		},
+		{
+			"path": "../../../../../../restaurant-service"
+		},
+		{
+			"path": "../../../../../../user-service"
+		}
+	]
+}
